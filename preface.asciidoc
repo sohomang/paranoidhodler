@@ -1,6 +1,6 @@
-= Le Hodler Paranoïaque
-Namson Lê <sohomang@protonmail.ch>
-0.1, 09/11/2019
+// = Le Hodler Paranoïaque - Ou comment devenir un véritable Bitcoiner
+// Namson Lê <sohomang@protonmail.ch>
+// 0.1, 09/11/2019
 
 == Préface
 
@@ -14,26 +14,24 @@ Mais il est facile de se perdre dans les vastes étendues de la technicité de B
 [link="https://www.reddit.com/r/comics/comments/6d0qf6/sirens_song/"]
 image::images/preface.png[Les sirènes,300]
 
-
 Les sirènes sont évidemment une métaphore des portefeuilles en ligne, "services" financers et autres https://fr.wikipedia.org/wiki/Système_de_Ponzi[systèmes de Ponzi], promettant une gestion facilitée ou des intérêts délirants en échange de votre liberté économique. La voie de la la souveraineté est rarement la plus attrayante; mais elle est celle qui vous récompensera le plus sur le long terme.
 
 Bitcoin offre la possibilité de devenir sa propre banque. C'est une force colossale dans un monde où la menace totalitaire n'est jamais très loin, mais c'est aussi potentiellement une faiblesse si les précautions appropriées ne sont pas prises. Ça tombe bien, ces dernières ne sont pas si compliquées à mettre en place.
-
-*En route !*
 
 
 === Objectif
 
 L'objectif de ce guide est d'introduire des méthodes de stockage des bitcoins encore trop peu connues, donc trop peu utilisées. Concrètement, il va s'agir de créer, de maintenir puis de renforcer de bonnes pratiques d'utilisation en matière souveraineté, de sécurité et de vie privée — les trois facteurs de l'épanouissement de tout hodler qui se respecte. 
 
-.Pour cela, ce guide se construit en cinq points :
+Pour cela, ce guide se construit en cinq points :
+
 * Chapitre 0 : link:ch00.asciidoc[Introduction], une entrée en matière composée d'un glossaire et de quelques notions préliminaires.
 * Chapitre 1 : link:ch01.asciidoc[Souveraineté], ou pourquoi et comment se défaire du chant des sirènes.
 * Chapitre 2 : link:ch02.asciidoc[Sécurité], pour doter vos fonds d'un blindage solide.
 * Chapitre 3 : link:ch03.asciidoc[Vie privée], afin d'échapper aux radars.
 * Chapitre 4 : link:ch04.asciidoc[Multisig], un gros complément à la partie Sécurité qui mérite d'avoir son propre chapitre.
 
-Tout ceci dans l'optique de parvenir au Saint Graal du *hodler paranoïaque* : le système optimal.
+Tout ceci dans l'optique de parvenir au Saint Graal du *hodler paranoïaque* : le système optimal. En route !
 
 
 === Public ciblé
@@ -49,15 +47,14 @@ Je ne prétends pas la vérité absolue en termes d'https://fr.wikipedia.org/wik
 
 [IMPORTANT]
 ====
-Vous êtes entièrement responsable de vos fonds. Eh oui, puisque l'indépendance est le sujet même de ce guide. Ainsi, assurez-vous d'être bien conscient de savoir ce que vous faites à chaque étape que vous rencontrerez.
-
-Toute perte sur la https://twitter.com/francispouliot_/status/1106028072799744002?s=20[timechain] est irrémédiable.
+Vous êtes entièrement responsable de vos fonds. Eh oui, l'indépendance étant le sujet de ce guide. Ainsi, assurez-vous d'être bien conscient de savoir ce que vous faites à chaque étape que vous rencontrerez. Toute perte sur la https://twitter.com/francispouliot_/status/1106028072799744002?s=20[timechain] est irrémédiable.
 ====
 
 Mais ne vous inquiétez pas, le jeu en vaut la chandelle.
 
 
 === Sommaire
+
 * Préface
 * Chapitre 0 : link:ch00.asciidoc[Introduction]
 ** Glossaire
@@ -66,20 +63,17 @@ Mais ne vous inquiétez pas, le jeu en vaut la chandelle.
 * Chapitre 1 : link:ch01.asciidoc[Souveraineté]
 ** Adieu les plateformes d'échange
 ** Montez votre propre nœud
-// ** Bonus ()
 * Chapitre 2 : link:ch02.asciidoc[Sécurité]
 ** Des mots de passe robustes, enfin
 ** Étendez votre phrase secrète
 ** Stockez vos fonds à froid
 ** N'oubliez pas la sécurité physique
-// ** Bonus (Vérifier binaries, PGP)
 * Chapitre 3 : link:ch03.asciidoc[Vie privée]
 ** Mixez vos bitcoins
 ** Une seule transaction par adresse
 ** Votre nœud comme source de vérité
 ** L'anonymat avec Tor
 ** Allez plus loin avec un VPN
-// ** Bonus (LN)
 * Chapitre 4 : link:ch04.asciidoc[Multisig]
 ** Qu'est-ce que c'est ?
 ** Pourquoi c'est bien ?
