@@ -1,0 +1,86 @@
+= Le Hodler Paranoïaque
+Namson Lê <sohomang@protonmail.ch>
+0.1, 09/11/2019
+
+== Préface
+
+
+=== Avant-propos
+
+En tant que https://coinsutra.com/hodl-popular-cryptocurrency-terms/[hodler], que l'on soit un curieux ou un passioné, nous finissons toujours par être confrontés à la problématique du stockage de nos actifs. De nombreuses solutions existent et proposent des compromis plus ou moins satisfaisants en termes de *souveraineté*, de *sécurité* et de respect de la *vie privée*. 
+
+Mais il est facile de se perdre dans les vastes étendues de la technicité de Bitcoin, d'autant plus dans un domaine aussi inexploré et complexe que celui-ci. Ainsi, nombreux sont les aventuriers qui abandonnent et finissent par succomber au chant des sirènes, se dirigeant vers https://cryptosec.info/exchange-hacks/[une mort certaine]. 
+
+.Nos valeureux aventuriers. https://www.reddit.com/r/comics/comments/6d0qf6/sirens_song/[Source]
+[caption="Figure 1 : ", link="https://www.reddit.com/r/comics/comments/6d0qf6/sirens_song/"]
+image::images/preface.png[Les sirènes,300]
+
+Les sirènes sont évidemment une métaphore des portefeuilles en ligne, "services" financers et autres https://fr.wikipedia.org/wiki/Système_de_Ponzi[systèmes de Ponzi], promettant une gestion facilitée ou des intérêts délirants en échange de votre liberté économique. La voie de la la souveraineté est rarement la plus attrayante; mais elle est celle qui vous récompensera le plus sur le long terme.
+
+Bitcoin offre la possibilité de devenir sa propre banque. C'est une force colossale dans un monde où la menace totalitaire n'est jamais très loin, mais c'est aussi potentiellement une faiblesse si les précautions appropriées ne sont pas prises. Ça tombe bien, ces dernières ne sont pas si compliquées à mettre en place.
+
+*En route !*
+
+
+=== Objectif
+
+L'objectif de ce guide est d'introduire des méthodes de stockage des bitcoins encore trop peu connues, donc trop peu utilisées. Concrètement, il va s'agir de créer, de maintenir puis de renforcer de bonnes pratiques d'utilisation en matière souveraineté, de sécurité et de vie privée — les trois facteurs de l'épanouissement de tout hodler qui se respecte. 
+
+.Pour cela, ce guide se construit en cinq points :
+* Chapitre 0 : link:ch00.asciidoc[Introduction], une entrée en matière composée d'un glossaire et de quelques notions préliminaires.
+* Chapitre 1 : link:ch01.asciidoc[Souveraineté], ou pourquoi et comment se défaire du chant des sirènes.
+* Chapitre 2 : link:ch02.asciidoc[Sécurité], pour doter vos fonds d'un blindage solide.
+* Chapitre 3 : link:ch03.asciidoc[Vie privée], afin d'échapper aux radars.
+* Chapitre 4 : link:ch04.asciidoc[Multisig], un gros complément à la partie Sécurité qui mérite d'avoir son propre chapitre.
+
+Tout ceci dans l'optique de parvenir au Saint Graal du *hodler paranoïaque* : le système optimal.
+
+
+=== Public ciblé
+
+Ce guide s'adresse à tout utilisateur désirant utiliser Bitcoin à son plein potentiel, tout en se protégeant d'un maximum de vecteurs d'attaque possibles. Novices et adeptes devraient y trouver leur compte, au travers d'une rédaction technique restant néanmoins accessible au plus grand nombre.
+
+Les experts, quant à eux, risquent de ne rien à avoir à apprendre davantage que ce que la https://bitcoin.org/en/developer-documentation[documentation de Bitcoin] et quelques mois de pratique ont pu leur apprendre.
+
+
+=== Mise en garde
+
+Je ne prétends pas la vérité absolue en termes d'https://fr.wikipedia.org/wiki/OPSEC[OPSEC], n'étant moi-même qu'un hodler parmi tant d'autres. Cependant, les réflexions listées ici sont avérées et, pour la plupart, validées par la vaste majorité de la communauté experte.
+
+[IMPORTANT]
+====
+Vous êtes entièrement responsable de vos fonds. Eh oui, puisque l'indépendance est le sujet même de ce guide. Ainsi, assurez-vous d'être bien conscient de savoir ce que vous faites à chaque étape que vous rencontrerez.
+
+Toute perte sur la https://twitter.com/francispouliot_/status/1106028072799744002?s=20[timechain] est irrémédiable.
+====
+
+Mais ne vous inquiétez pas, le jeu en vaut la chandelle.
+
+
+=== Sommaire
+* Préface
+* Chapitre 0 : link:ch00.asciidoc[Introduction]
+** Glossaire
+** Redondance et échelons
+** L'authentification à 2 facteurs, oui mais...
+* Chapitre 1 : link:ch01.asciidoc[Souveraineté]
+** Adieu les plateformes d'échange
+** Montez votre propre nœud
+// ** Bonus ()
+* Chapitre 2 : link:ch02.asciidoc[Sécurité]
+** Des mots de passe robustes, enfin
+** Étendez votre phrase secrète
+** Stockez vos fonds à froid
+** N'oubliez pas la sécurité physique
+// ** Bonus (Vérifier binaries, PGP)
+* Chapitre 3 : link:ch03.asciidoc[Vie privée]
+** Mixez vos bitcoins
+** Une seule transaction par adresse
+** Votre nœud comme source de vérité
+** L'anonymat avec Tor
+** Allez plus loin avec un VPN
+// ** Bonus (LN)
+* Chapitre 4 : link:ch04.asciidoc[Multisig]
+** Qu'est-ce que c'est ?
+** Pourquoi c'est bien ?
+** Comment on fait ?
