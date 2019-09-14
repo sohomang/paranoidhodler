@@ -12,7 +12,7 @@ Pour lire ce guide, démarrez avec la [préface](preface.asciidoc).
 Ce guide est en construction et peut contenir des erreurs. Si vous en remarquez une, ou que vous souhaitez contribuer à son développement, merci d'ouvrir une [issue](https://github.com/sohomang/paranoidhodler/issues) directement sur GitHub. Toute suggestion est la bienvenue.
 
 
-# Chapitres
+# Sommaire
 
 * [Préface](preface.asciidoc)
 * Chapitre 0 : [Introduction](ch00.asciidoc)
