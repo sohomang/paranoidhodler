@@ -11,9 +11,9 @@ En tant que https://coinsutra.com/hodl-popular-cryptocurrency-terms/[hodler], qu
 
 Mais il est facile de se perdre dans les vastes étendues de la technicité de Bitcoin, d'autant plus dans un domaine aussi inexploré et complexe que celui-ci. Ainsi, nombreux sont les aventuriers qui abandonnent et finissent par succomber au chant des sirènes, se dirigeant vers https://cryptosec.info/exchange-hacks/[une mort certaine]. 
 
-.Nos valeureux aventuriers. https://www.reddit.com/r/comics/comments/6d0qf6/sirens_song/[Source]
-[caption="Figure 1 : ", link="https://www.reddit.com/r/comics/comments/6d0qf6/sirens_song/"]
+[link="https://www.reddit.com/r/comics/comments/6d0qf6/sirens_song/"]
 image::images/preface.png[Les sirènes,300]
+
 
 Les sirènes sont évidemment une métaphore des portefeuilles en ligne, "services" financers et autres https://fr.wikipedia.org/wiki/Système_de_Ponzi[systèmes de Ponzi], promettant une gestion facilitée ou des intérêts délirants en échange de votre liberté économique. La voie de la la souveraineté est rarement la plus attrayante; mais elle est celle qui vous récompensera le plus sur le long terme.
 
